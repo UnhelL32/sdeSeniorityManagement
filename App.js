@@ -1287,4 +1287,6 @@ export default function App() {
 
     </div>
   );
+// Add this line at the absolute bottom of app.js below the component
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 }
